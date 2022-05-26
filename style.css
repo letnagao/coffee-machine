@@ -99,3 +99,161 @@ body {
     top: 23px;
     left: 1px;
 }
+
+.filter {
+    width: 45px;
+    height: 16px;
+    background: linear-gradient(
+        to right,
+        #ede9d7 70%,
+        #dad1b7 70%
+    );
+    position: relative;
+    margin: auto;
+    bottom: 57px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.filter-base {
+    background-color: #ffffff;
+    height: 13px;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    top: 15px;
+}
+
+.filter-base::before {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 6px;
+    width: 12px;
+    top: 12px;
+    left: 16px;
+}
+
+.handle{
+    height: 7px;
+    border-right: 70px solid #e06526;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    position: relative;
+    left: 39px;
+    bottom: 16px;
+}
+
+.filter:hover .handle {
+    animation: spin 6s;
+}
+
+@keyframes spin {
+    50% {
+        transform: translateX(-102px) rotateY(-180deg);
+    }
+}
+
+.handle:after {
+    content: "";
+    position: absolute;
+    height: 22.5px;
+    width: 22.5px;
+    border-radius: 50%;
+    background-color: #c9561d;
+    left: 58px;
+    top: -7.5px;
+    transform: rotateY(70deg);
+}
+
+.coffee {
+    height: 30px;
+    width: 8px;
+    background-color: #e06526;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+    margin: auto;
+    bottom: 3px;
+    visibility: hidden;
+}
+
+.filter:hover .coffee {
+    animation: pour 6s 4s;
+}
+
+@keyframes pour {
+    0% {
+        visibility: visible;
+    }
+    100% {
+        transform: translateY(30px);
+    }
+}
+
+.steam {
+    background-color: rgb(204,204,204,0.2) ;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    top: 50px;
+}
+
+.filter:hover .steam {
+    animation: rise-steam 4s 5s;
+}
+
+@keyframes rise-steam {
+    100% {
+        transform: translateY(-75px);
+    }
+}
+
+.steam:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(230,230,230,0.3);
+    height: 6px;
+    width: 6px;
+    bottom: 5px;
+    border-radius: 50%;
+}
+
+.coffee-drop {
+    background-color: #e06526;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 43px;
+    left: 18px;
+    visibility: hidden;
+}
+
+.filter:hover .coffee-drop {
+    animation: drop 3s 6.1s;
+}
+
+@keyframes drop {
+    100% {
+        visibility: visible;
+        transform: translateY(25px);
+    }
+}
+
+.back {
+    width: 145px;
+    background-color: #3b240e;
+    height: 140px;
+    position: relative;
+    margin: auto;
+    bottom: 72px;
+}
+
+.back:before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 155px;
+    background-color: #e06526;
+}
