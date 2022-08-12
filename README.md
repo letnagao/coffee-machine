@@ -15,10 +15,13 @@ CSS and HTML Animation
   <video src="https://user-images.githubusercontent.com/99754900/173213425-eae400f9-196b-4b5f-b274-39ae5beaedc2.mp4" />
 </p>
 
-## Technologies used 🛠️
-**Design**: *CSS3 & HTML*<br />
-
-## Usage 📋
+</ul><h2>Technologies Used 🛠️</h2>
+<ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+  
+</ul><h2>Usage 📋</h2>
 <details open>
 <summary>1. Server Setup</summary>
 
