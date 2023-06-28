@@ -9,12 +9,13 @@ CSS and HTML Animation
 [![GitHub watchers](https://img.shields.io/github/watchers/letnagao/coffee-machine?logo=GitHub)](https://github.com/letnagao/coffee-machine/watchers)
 ![Maintained](https://img.shields.io/maintenance/yes/9999)
 
-## Preview 🔥
-
-<p align="center">
-  <video src="https://user-images.githubusercontent.com/99754900/173213425-eae400f9-196b-4b5f-b274-39ae5beaedc2.mp4" />
-</p>
-
+</ul><h2> Preview ⚡️</h2>
+<table align="center">
+  <tr>
+    <td><video src="https://user-images.githubusercontent.com/99754900/173213425-eae400f9-196b-4b5f-b274-39ae5beaedc2.mp4" width=1280 height=800></td>
+  </tr>
+</table>
+      
 </ul><h2>Technologies Used 🛠️</h2>
 <ul>
 <li>HTML</li>
